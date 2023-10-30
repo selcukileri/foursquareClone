@@ -8,7 +8,7 @@
 import UIKit
 import Parse
 
-class ViewController: UIViewController {
+class SignUpVC: UIViewController {
     
     @IBOutlet weak var usernameText: UITextField!
     
@@ -28,8 +28,8 @@ class ViewController: UIViewController {
                 if error != nil {
                     self.makeAlert(titleInput: "Error", messageInput: error?.localizedDescription ?? "Error!!")
                 } else {
-                    //performSegue(withIdentifier: <#T##String#>, sender: <#T##Any?#>)
-                    print("Welcome \(user!.username)")
+                    self.performSegue(withIdentifier: "toPlacesVC", sender: nil)
+                    
                 }
             }
         } else {
@@ -47,8 +47,7 @@ class ViewController: UIViewController {
                 if error != nil {
                     self.makeAlert(titleInput: "Error", messageInput: error?.localizedDescription ?? "Error!!")
                 } else {
-                    //performSegue(withIdentifier: <#T##String#>, sender: <#T##Any?#>)
-                    print("OK")
+                    self.performSegue(withIdentifier: "toPlacesVC", sender: nil)
                 }
             }
         } else {
