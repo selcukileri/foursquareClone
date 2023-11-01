@@ -103,7 +103,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="cfu-on-OcX">
-                                <rect key="frame" x="0.0" y="44" width="393" height="808"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
@@ -133,7 +133,7 @@
             <objects>
                 <viewController id="anS-S3-dyl" customClass="DetailsVC" customModule="FoursquareClone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="k4r-RN-k01">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="placeNameLabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zTY-uf-g0H">
@@ -188,11 +188,11 @@
             <objects>
                 <viewController id="kHZ-P6-ydT" customClass="AddPlacesVC" customModule="FoursquareClone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Wbr-eo-KDP">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="place name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="APJ-7r-Qlf">
-                                <rect key="frame" x="42" y="70" width="308" height="34"/>
+                                <rect key="frame" x="42" y="50" width="308" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="muI-R4-3Ac"/>
                                 </constraints>
@@ -200,7 +200,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="place type" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="a2G-kh-D7s">
-                                <rect key="frame" x="42" y="128" width="308" height="34"/>
+                                <rect key="frame" x="42" y="108" width="308" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="luc-Uk-StL"/>
                                 </constraints>
@@ -208,7 +208,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="place atmosphere" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zf8-kg-wxT">
-                                <rect key="frame" x="42" y="189" width="308" height="34"/>
+                                <rect key="frame" x="42" y="169" width="308" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="5Th-C6-vDa"/>
                                 </constraints>
@@ -216,14 +216,14 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="square.and.arrow.up.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="LWK-Fv-fM8">
-                                <rect key="frame" x="42" y="265" width="308" height="260"/>
+                                <rect key="frame" x="42" y="245" width="308" height="260"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="308" id="LuQ-lb-boB"/>
                                     <constraint firstAttribute="height" constant="261.32999999999998" id="h1w-fT-svQ"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="13R-ev-UR3">
-                                <rect key="frame" x="131" y="608" width="130" height="89"/>
+                                <rect key="frame" x="131" y="540" width="130" height="89"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="89" id="B8M-eW-9Ew"/>
                                 </constraints>
@@ -245,10 +245,10 @@
                             <constraint firstItem="LWK-Fv-fM8" firstAttribute="top" secondItem="Zf8-kg-wxT" secondAttribute="bottom" constant="41" id="NHE-iU-mWa"/>
                             <constraint firstItem="a2G-kh-D7s" firstAttribute="top" secondItem="APJ-7r-Qlf" secondAttribute="bottom" constant="24" id="TTG-80-TgC"/>
                             <constraint firstItem="LWK-Fv-fM8" firstAttribute="centerX" secondItem="13R-ev-UR3" secondAttribute="centerX" id="XxZ-xd-GCx"/>
-                            <constraint firstItem="13R-ev-UR3" firstAttribute="top" secondItem="LWK-Fv-fM8" secondAttribute="bottom" constant="82.666666666666742" id="ZTS-Id-Nn7"/>
+                            <constraint firstItem="13R-ev-UR3" firstAttribute="top" secondItem="LWK-Fv-fM8" secondAttribute="bottom" constant="34.666666666666686" id="ZTS-Id-Nn7"/>
                             <constraint firstItem="a2G-kh-D7s" firstAttribute="leading" secondItem="Zf8-kg-wxT" secondAttribute="leading" id="aIM-2P-oEt"/>
-                            <constraint firstItem="wi3-DO-Zp4" firstAttribute="bottom" secondItem="13R-ev-UR3" secondAttribute="bottom" constant="51.333333333333371" id="d1O-SA-iVR"/>
-                            <constraint firstItem="APJ-7r-Qlf" firstAttribute="top" secondItem="wi3-DO-Zp4" secondAttribute="top" constant="26" id="mbz-9H-WJb"/>
+                            <constraint firstItem="wi3-DO-Zp4" firstAttribute="bottom" secondItem="13R-ev-UR3" secondAttribute="bottom" constant="-34" id="d1O-SA-iVR"/>
+                            <constraint firstItem="APJ-7r-Qlf" firstAttribute="top" secondItem="wi3-DO-Zp4" secondAttribute="top" constant="50" id="mbz-9H-WJb"/>
                             <constraint firstItem="Zf8-kg-wxT" firstAttribute="top" secondItem="a2G-kh-D7s" secondAttribute="bottom" constant="27" id="mcc-nZ-zvc"/>
                             <constraint firstItem="Zf8-kg-wxT" firstAttribute="leading" secondItem="LWK-Fv-fM8" secondAttribute="leading" id="nDD-TD-Pmy"/>
                             <constraint firstItem="APJ-7r-Qlf" firstAttribute="trailing" secondItem="a2G-kh-D7s" secondAttribute="trailing" id="qsE-z5-Ar1"/>
@@ -293,6 +293,7 @@
                     <navigationItem key="navigationItem" id="99q-jO-hNx"/>
                     <connections>
                         <outlet property="mapView" destination="H4a-Mi-Ucg" id="Tsy-4E-9A6"/>
+                        <segue destination="jF4-Mz-64v" kind="presentation" identifier="fromMapVCtoPlacesVC" modalPresentationStyle="fullScreen" id="VhE-Ld-DFb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MK1-zI-PBQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -338,6 +339,10 @@
             <point key="canvasLocation" x="3704.5801526717555" y="2.8169014084507045"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="bE3-Nm-Ipg"/>
+        <segue reference="VhE-Ld-DFb"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="square.and.arrow.up.circle.fill" catalog="system" width="128" height="123"/>
         <systemColor name="systemBackgroundColor">

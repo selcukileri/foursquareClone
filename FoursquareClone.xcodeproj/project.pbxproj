@@ -18,6 +18,7 @@
 		B67B37A82AEFC1DF00E7FA9A /* AddPlacesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67B37A72AEFC1DF00E7FA9A /* AddPlacesVC.swift */; };
 		B67B37AA2AEFC30A00E7FA9A /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67B37A92AEFC30A00E7FA9A /* MapVC.swift */; };
 		B67B37AC2AEFC66000E7FA9A /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67B37AB2AEFC66000E7FA9A /* DetailsVC.swift */; };
+		B67B37AE2AF190FC00E7FA9A /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67B37AD2AF190FC00E7FA9A /* PlaceModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		B67B37A72AEFC1DF00E7FA9A /* AddPlacesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlacesVC.swift; sourceTree = "<group>"; };
 		B67B37A92AEFC30A00E7FA9A /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		B67B37AB2AEFC66000E7FA9A /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		B67B37AD2AF190FC00E7FA9A /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 		E608394CFBCC9EBD5EF38D78 /* Pods-FoursquareClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoursquareClone.debug.xcconfig"; path = "Target Support Files/Pods-FoursquareClone/Pods-FoursquareClone.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +89,7 @@
 				B67B37A72AEFC1DF00E7FA9A /* AddPlacesVC.swift */,
 				B67B37A92AEFC30A00E7FA9A /* MapVC.swift */,
 				B67B37AB2AEFC66000E7FA9A /* DetailsVC.swift */,
+				B67B37AD2AF190FC00E7FA9A /* PlaceModel.swift */,
 				B67B37972AEDBE1B00E7FA9A /* Main.storyboard */,
 				B67B379A2AEDBE1C00E7FA9A /* Assets.xcassets */,
 				B67B379C2AEDBE1C00E7FA9A /* LaunchScreen.storyboard */,
@@ -219,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B67B37962AEDBE1B00E7FA9A /* SignUpVC.swift in Sources */,
+				B67B37AE2AF190FC00E7FA9A /* PlaceModel.swift in Sources */,
 				B67B37AA2AEFC30A00E7FA9A /* MapVC.swift in Sources */,
 				B67B37922AEDBE1B00E7FA9A /* AppDelegate.swift in Sources */,
 				B67B37A82AEFC1DF00E7FA9A /* AddPlacesVC.swift in Sources */,
