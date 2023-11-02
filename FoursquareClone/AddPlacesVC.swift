@@ -23,6 +23,11 @@ class AddPlacesVC: UIViewController, UIImagePickerControllerDelegate, UINavigati
         placeImageView.isUserInteractionEnabled = true
         let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(chooseImage))
         placeImageView.addGestureRecognizer(gestureRecognizer)
+        
+        navigationController?.navigationBar.topItem?.leftBarButtonItem = UIBarButtonItem(title: "Back", style: UIBarButtonItem.Style.plain, target: self, action: #selector(backButtonClicked))
+    }
+    @objc func backButtonClicked(){
+        self.dismiss(animated: true)
     }
     
     @objc func hideKeyboard(){

@@ -63,7 +63,7 @@ class MapVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
         let object = PFObject(className: "Places")
         object["name"] = placeModel.placeName
         object["type"] = placeModel.placeType
-        object["type"] = placeModel.placeAtmosphere
+        object["atmosphere"] = placeModel.placeAtmosphere
         object["latitude"] = placeModel.placeLatitude
         object["longitude"] = placeModel.placeLongitude
         
